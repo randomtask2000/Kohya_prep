@@ -31,6 +31,15 @@ python3 create.py
 ```
 The program will prompt you to enter the path to the image or video file and the output directory where the cropped images will be saved.
 
+It will look like the following:
+```sh
+# Kohya_LoRA_Vid2ImgsTagger$ python3 create.py
+Enter the path to your file (image or video): Emilio.MOV
+Enter the output directory for the cropped images: output
+Saved output/feature_crop_0.png with tags: ['chin', 'left_eyebrow', 'right_eyebrow', 'nose_bridge', 'nose_tip', 'left_eye', 'right_eye', 'top_lip', 'bottom_lip']
+...
+```
+
 ## Note
 The image or video file path should point to a valid `.png`, `.jpg`, `.jpeg`, or `.mov` file.
 The output directory should be a valid directory on your filesystem where the program has write access.

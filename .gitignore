@@ -1,6 +1,33 @@
+# .gitignore content
 
-# ignore ALL .png files
-.png
+# Python temporary files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# ignore movie input file
-.MOV
+# Jupyter Notebook temporary checkpoint files
+.ipynb_checkpoints/
+
+# macOS temporary files
+.DS_Store
+
+# Virtual environment folder
+venv/
+env/
+
+# Output directory for the cropped images
+output_images/
+
+# User-specific files
+*.MOV
+*.png
+*.jpg
+*.jpeg
+
+# Logs
+*.log
+
+# Local configuration file
+.local/
+
+# pip requirements file

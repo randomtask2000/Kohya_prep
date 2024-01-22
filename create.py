@@ -63,6 +63,12 @@ def get_random_face_crop_and_tags(frame, face_locations):
 file_path = input("Enter the path to your file (image or video): ")
 output_dir = input("Enter the output directory for the cropped images: ")
 
+# Check and create default output directory if necessary
+if not output_dir:
+    output_dir = "default_output"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir) 
+
 if os.path.exists(file_path):
     if file_path.lower().endswith(('.png', '.jpg', '.jpeg')):
         image = cv2.imread(file_path)
