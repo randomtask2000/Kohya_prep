@@ -1,0 +1,6 @@
+
+# ignore ALL .png files
+.png
+
+# ignore movie input file
+.MOV
