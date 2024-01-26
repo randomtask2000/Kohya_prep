@@ -1,3 +1,32 @@
+'''
+# This program extracts images of faces from a video and tags them for LoRA generation with Kohya_ss
+
+Little image extractor and tagger from selfie video as input. 
+The resulting images are meant to be used by Kohya to create a LoRA for something like SDLX.
+
+## Author
+
+Emilio Nicoli
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Installation
+
+Before running the program, ensure you have Python installed on your system. If not, you can download it from [python.org](https://www.python.org/downloads/).
+
+### Dependencies
+
+This program requires the following dependencies:
+- Dependency1
+- Dependency2
+- Dependency3
+
+You can install these dependencies by running the following command:
+
+`pip install Dependency1 Dependency2 Dependency3`
+'''
 import cv2
 import os
 import random
