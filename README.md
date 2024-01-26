@@ -1,5 +1,10 @@
-# Kohya_LoRA_Vid2ImgsTagger
-Little image extractor and tagger from selfie video as input. The resulting images are meant to be used by Kohya to create a LoRA for something like SDLX.
+# Kohya LoRA preprocessing
+
+## mov2Images.py
+Little image extractor and tagger from selfie video as input. The resulting images are meant to be used by Kohya to create a LoRA for something like SDLX. The images reduced to 512x512.
+
+## resizeImages.py
+Resizes images from a directory to an output directory. The images are reduced to 768x768.
 
 # Face Feature Extraction Program Installation & Execution Guide
 
@@ -22,22 +27,6 @@ After installing Python, you can install the required Python packages using `pip
 pip install opencv-python
 pip install face_recognition
 pip install numpy
-```
-
-## Run 
-To run the program, use the following command in the terminal or command prompt:
-```sh
-python3 create.py
-```
-The program will prompt you to enter the path to the image or video file and the output directory where the cropped images will be saved.
-
-It will look like the following:
-```sh
-# Kohya_LoRA_Vid2ImgsTagger$ python3 create.py
-Enter the path to your file (image or video): Emilio.MOV
-Enter the output directory for the cropped images: output
-Saved output/feature_crop_0.png with tags: ['chin', 'left_eyebrow', 'right_eyebrow', 'nose_bridge', 'nose_tip', 'left_eye', 'right_eye', 'top_lip', 'bottom_lip']
-...
 ```
 
 ## Note
