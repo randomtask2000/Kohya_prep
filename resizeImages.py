@@ -97,12 +97,12 @@ def process_images(source_dir, target_dir):
             process_image(file_path, output_path)
 
 # Prompting user for source and target directories
-source_dir = input("Enter source directory (default: /ai/LoraImages/Marni/): ")
+source_dir = input("Enter source directory (default: /ai/LoraImages/): ")
 if not source_dir:
-    source_dir = '/ai/LoraImages/Marni/'
+    source_dir = '/ai/LoraImages/'
 
-target_dir = input("Enter target directory (default: /ai/LoraImages/Marni/output): ")
+target_dir = input("Enter target directory (default: /ai/LoraImages/output): ")
 if not target_dir:
-    target_dir = '/ai/LoraImages/Marni/output'
+    target_dir = '/ai/LoraImages/output'
 
 process_images(source_dir, target_dir)
