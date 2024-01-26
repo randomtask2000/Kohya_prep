@@ -10,6 +10,7 @@ __pycache__/
 
 # macOS temporary files
 .DS_Store
+._*
 
 # Virtual environment folder
 venv/
@@ -23,6 +24,10 @@ output_images/
 *.png
 *.jpg
 *.jpeg
+*.zip
+*.json
+destination/
+wget-log
 
 # Logs
 *.log
